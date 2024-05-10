@@ -189,6 +189,10 @@ p {
     padding: 20px;
   }
 
+  .images-about-page {
+    display: none;
+  }
+
   .contact-heading {
     font-size: 28px;
   }
