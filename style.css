@@ -8,6 +8,13 @@ html {
   scroll-behavior: smooth;
 }
 
+nav {
+  background-color: var(--secondary-color);
+  z-index: 100;
+  width: 100%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
 h1 {
   font-size: 96px;
 }
@@ -52,6 +59,16 @@ p {
   color: white;
 }
 
+.purple-anchor-tag:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.white-anchor-tag:hover {
+  color: var(--primary-color);
+  text-decoration: underline;
+}
+
 .navigation-links {
   display: flex;
   margin-top: 40px;
@@ -88,8 +105,10 @@ p {
   margin: 30px 0;
 }
 
-.about-paragraphs p {
+.about-paragraph p {
   margin: 10px;
+  text-align: center;
+  padding: 70px;
 }
 
 .email-link {
@@ -102,4 +121,17 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+}
+
+.footer-link {
+  color: var(--primary-color);
+}
+
+.footer-link:hover {
+  cursor: pointer;
+  color: var(--primary-color);
+}
+
+.contact {
+  margin: 80px;
 }
